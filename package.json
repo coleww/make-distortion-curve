@@ -1,18 +1,8 @@
 {
   "name": "make-distortion-curve",
-  "description": "Put A Description Here!",
+  "description": "distortion curve function for web audio",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "build": "browserify www/demo.js -o www/bundle.js",
-    "test": "node test.js -o www/bundle.js",
-    "watch": "watchify www/demo.js -o www/bundle.js --debug --verbose"
-  },
-  "devDependencies": {
-    "browserify": "*",
-    "tape": "*",
-    "watchify": "*"
-  },
   "keywords": [
     "webaudio",
     "distortion",
